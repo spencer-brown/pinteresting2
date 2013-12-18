@@ -11,6 +11,7 @@
     </div>
   <% end %>
 
+<<<<<<< HEAD
   <div class="image">
     <%= f.label :image %><br>
     <%= f.file_field :image %>
@@ -22,5 +23,13 @@
   </div>
   <div class="actions">
     <%= f.submit %>
+=======
+  <div class="panel-body">
+    <div class="form-group">
+      <%= f.label :description %><br>
+      <%= f.text_field :description, class: "form-control" %>
+    </div>
+      <%= f.submit class: "btn btn-primary" %>
+>>>>>>> d47ada3f0aec3eca7828112936e12c4d89c2c10d
   </div>
 <% end %>
